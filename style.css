@@ -1,4 +1,7 @@
-
+.monica-reading-highlight {
+  animation: !important;
+  background-color: transparent !important;
+}
 
 *{
     display: flex;
@@ -180,6 +183,7 @@ footer{
     }
 
 }
+
 
 
 
