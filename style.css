@@ -9,6 +9,11 @@
     font-size: 48px;
 }
 
+body{
+    
+    display: block;
+}
+
 .bod{
     max-width: 1078px;
     display: block;
@@ -180,4 +185,5 @@ footer{
         flex-direction: column;
     }
 }
+
 
