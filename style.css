@@ -3,21 +3,23 @@
   background-color: transparent !important;
 }
 
-*{
-    display: flex;
-   
+* {
+    box-sizing: border-box;
     font-size: 25px;
-
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1078px;
+}
 .title{
     font-size: 48px;
 }
 
-body{
-    max-width: 1078px;
-    display: block;
-}
+
 
 Header{
     padding-top: 20px;
@@ -183,6 +185,7 @@ footer{
     }
 
 }
+
 
 
 
