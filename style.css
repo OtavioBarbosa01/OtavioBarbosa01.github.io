@@ -16,7 +16,7 @@
 
 body{
     max-width: 1078px;
-   
+    display: block;
 }
 
 Header{
@@ -183,6 +183,7 @@ footer{
     }
 
 }
+
 
 
 
