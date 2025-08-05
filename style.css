@@ -1,5 +1,5 @@
 .monica-reading-highlight {
-  animation: !important;
+  animation: none !important;
   background-color: transparent !important;
 }
 
@@ -183,6 +183,7 @@ footer{
     }
 
 }
+
 
 
 
