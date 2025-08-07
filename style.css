@@ -124,6 +124,10 @@ nav {
   width: 40%;
 }
 
+.paragrafo {
+  text-align: center;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -137,10 +141,6 @@ footer a {
   text-decoration: none;
   color: black;
   font-size: 20px;
-}
-
-footer p {
-  justify-content: center;
 }
 
 
@@ -207,4 +207,3 @@ footer p {
     flex-direction: column;
   }
 }
-
