@@ -1,4 +1,3 @@
-
 /* Neutraliza efeitos da extensão Monica */
 .monica-reading-highlight {
   animation: none !important;
@@ -12,7 +11,7 @@
 }
 
 body {
-  max-width: 1078px;
+  max-width: 930px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -77,11 +76,11 @@ nav {
 }
 
 .title {
-    font-size: 48px;
-  }
+  font-size: 48px;
+}
 
-.cont{
-    display: flex;
+.cont {
+  display: flex;
 }
 
 .imagem {
@@ -116,15 +115,21 @@ nav {
   align-items: center;
 }
 
+.imagem_container {
+  display: flex;
+  justify-content: center;
+}
+
 .imagem_contente {
   width: 40%;
 }
 
 footer {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
   padding-top: 10%;
+  width: 100%;
 }
 
 footer a {
@@ -134,11 +139,6 @@ footer a {
   font-size: 20px;
 }
 
-footer p {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-}
 
 /* Responsividade */
 @media (max-width: 1280px) {
@@ -147,7 +147,7 @@ footer p {
   }
 
   body {
-    max-width: 878px;
+    max-width: 765px;
   }
 
   .title {
@@ -166,7 +166,7 @@ footer p {
   }
 
   body {
-    max-width: 451px;
+    max-width: 415px;
   }
 
   .title {
@@ -203,4 +203,3 @@ footer p {
     flex-direction: column;
   }
 }
-
