@@ -173,6 +173,16 @@ footer a {
     max-width: 415px;
   }
 
+  .text {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .imagem {
+    display: none;
+  }
+
   .title {
     font-size: 25px;
   }
